@@ -705,7 +705,7 @@
             var ConstantsService = /** @class */ (function () {
                 function ConstantsService() {
                     this.jiraAPI = "https://jira.intranet.roche.com/jira/rest/api/2/";
-                    this.nodeServerApi = "http://localhost:3000/";
+                    this.nodeServerApi = "http://10.95.53.182:3000/";
                     this.nodeGetIssuesApi = this.nodeServerApi + "getIssues";
                     this.nodeGetOneIssue = this.nodeServerApi + "getIssue";
                     this.nodeRaiseAnIssue = this.nodeServerApi + "raiseAnIssue";
